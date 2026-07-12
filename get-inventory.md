@@ -18,8 +18,20 @@ When you make a successful call to the endpoint, the server will return a JSON o
 
 ```json
 {
-    "business_name": "NG Mushrooms",
-    "currency": "NG",
-    "in_stock": true
+  "business_name": "Nagari Mushrooms",
+  "currency": "NGN",
+  "in_stock": true,
+  "variations": [
+    {
+      "type": "Fresh Oyster",
+      "weight_kg": 50,
+      "price_per_kg": 3500
+    },
+    {
+      "type": "Dried Shiitake",
+      "weight_kg": 12,
+      "price_per_kg": 8500
+    }
+  ]
 }
 --- 

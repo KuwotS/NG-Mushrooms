@@ -5,3 +5,4 @@
 * [Error Handling](errors.md)
 * [Get Mushroom Inventory](get-inventory.md)
 * [Rate Limiting](rate-limiting.md)
+* [create order](create-order.md)

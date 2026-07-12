@@ -10,3 +10,8 @@ Welcome to the official API documentation for **NG Mushrooms**! This reference g
 ### Getting Started 
 
 To begin integrating with our API, you will need to familiarize yourself with our base URL and set up authentication keys. Head over to the section to secure your API Key. 
+
+### Localization
+
+* **Language** (string): The text responses are written in English.
+* **Currency** (string): The prices will always display in **Nigerian Naira (NGN)**. 

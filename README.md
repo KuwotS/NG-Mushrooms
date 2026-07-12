@@ -13,5 +13,5 @@ To begin integrating with our API, you will need to familiarize yourself with ou
 
 ### Localization
 
-* **Language** (string): The text responses are written in English.
-* **Currency** (string): The prices will always display in **Nigerian Naira (NGN)**. 
+* **Language:** The text responses are written in **English**.
+* **Currency:** The prices will always display in **Nigerian Naira (NGN)**. 

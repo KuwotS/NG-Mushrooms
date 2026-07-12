@@ -21,7 +21,7 @@ To ensure your application doesn't get temporarily blocked, check the [Rate Limi
 Once your authentication header is set up, make a `GET` request to our inventory endpoint to retrieve real-time stock levels and pricing:
 
 ```bash
-GET [https://api.ngmushrooms.com/v1/inventory](https://api.ngmushrooms.com/v1/inventory)
+GET https://api.ngmushrooms.com/v1/inventory (https://api.ngmushrooms.com/v1/inventory)
 ```
 
 ---

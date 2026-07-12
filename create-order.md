@@ -28,12 +28,16 @@ When sending a `POST` request, you must include a JSON body with the following f
   "mushroom_type": "Fresh Oyster",
   "quantity_kg": 5
 }
+```
+---
 
-Example Response (201 Created)
+### Example Response (201 Created)
 When the order is successfully placed, the server will return a confirmation payload:
 
+```json
 {
   "order_id": "ORD-99281-NG",
   "status": "pending_payment",
   "message": "Order received successfully."
 }
+```

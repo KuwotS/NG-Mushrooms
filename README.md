@@ -22,6 +22,9 @@ Once your authentication header is set up, make a `GET` request to our inventory
 
 ```bash
 GET [https://api.ngmushrooms.com/v1/inventory](https://api.ngmushrooms.com/v1/inventory)
+```
+
+---
 
 ### Localization
 

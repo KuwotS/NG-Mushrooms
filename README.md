@@ -9,7 +9,19 @@ Welcome to the official API documentation for **NG Mushrooms**! This reference g
 ---
 ### Getting Started 
 
-To begin integrating with our API, you will need to familiarize yourself with our base URL and set up authentication keys. Head over to the section to secure your API Key. 
+To begin integrating with the NG Mushrooms API, follow this quick 3-step workflow to make your first authorized request.
+
+#### Step 1: Secure Your API Key
+Before making any requests, you must obtain a unique security token. Head over to the [Authentication](authentication.md) page to learn how to generate your sandbox key and pass it securely in your request headers.
+
+#### Step 2: Review Rate Limits and Error Codes
+To ensure your application doesn't get temporarily blocked, check the [Rate Limiting](rate-limiting.md) guidelines. If you run into any validation issues while testing, consult the [Error Handling](errors.md) guide for standard status code definitions.
+
+#### Step 3: Fetch Live Inventory Data
+Once your authentication header is set up, make a `GET` request to our inventory endpoint to retrieve real-time stock levels and pricing:
+
+```bash
+GET [https://api.ngmushrooms.com/v1/inventory](https://api.ngmushrooms.com/v1/inventory)
 
 ### Localization
 
